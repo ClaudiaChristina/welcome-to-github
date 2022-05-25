@@ -1,0 +1,82 @@
+body {
+  background-color: #c3cfe2;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card-container {
+  width: 600px;
+  height: 700px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 10px 1px #000;
+  text-align: center;
+}
+
+.card-image img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.body-container {
+  height: 300px;
+  background-color: white;
+}
+
+.footer-container {
+  height: 228px;
+  background-color: #686de0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  grid-gap: 20px;
+  align-self: center;
+  align-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.foto-1 {
+  background-color: blue;
+  border-radius: 15%;
+}
+
+.foto-2 {
+  background-color: yellow;
+  border-radius: 15%;
+}
+
+.foto-3 {
+  background-color: purple;
+  border-radius: 15%;
+}
+
+.foto-4 {
+  background-color: green;
+  border-radius: 15%;
+}
+
+.foto-5 {
+  background-color: pink;
+  border-radius: 15%;
+}
+
+.foto-6 {
+  background-color: rgb(235, 128, 128);
+  border-radius: 15%;
+}
+
+.foto-7 {
+  background-color: coral;
+  border-radius: 15%;
+}/*# sourceMappingURL=style.css.map */
